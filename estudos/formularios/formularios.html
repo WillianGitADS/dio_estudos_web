@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando Formularios</title>
+  </head>
+  <body>
+    <div class="tag-form">
+      <h1>Tag form</h1>
+      <form
+        name="signup"
+        target="_self"
+        method="post"
+        action="#"
+        autocomplete="off"
+        onsubmit="alert('enviei um formulario')"
+      >
+        Nome: <input type="text" name="name" /><br />
+        Idade: <input type="number" name="age" /><br />
+        Senha: <input type="password" name="password" /><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <hr />
+    <hr />
+    <div class="tag-inputs">
+      <label>Text:</label><input type="text" /> <br />
+      <label>Number:</label><input type="number" min="o" /> <br />
+      <label>Button:</label><input type="button" value="Enviar" />
+
+      <label>Range:</label><input type="Range" min="0" max="100" /> <br />
+      <label>Color:</label><input type="color" /> <br />
+      <label>Email:</label><input type="email" /> <br />
+      <label>Url:</label><input type="url" /> <br />
+      <label>Date:</label><input type="date" /> <br />
+
+      <label>Ckeck-box:</label>
+      <input type="checkbox" name="check" />
+      <input type="checkbox" name="check" />
+      <input type="checkbox" name="check" />
+      <br />
+
+      <label>Radio-button:</label>
+      <input type="radio" name="teste" />
+      <input type="radio" name="teste" />
+      <input type="radio" name="teste" />
+      <input type="radio" name="teste" />
+      <br />
+
+      <label>File:</label><input type="file" /> <br />
+      <label>File:</label><input type="file" multiple /> <br />
+      <!-- <label>Search:</label><input type="search" /> <br /> -->
+      <button type="button">Enviar</button><br />
+    </div>
+    <hr />
+    <hr />
+    <div class="checkbox_radio">
+      <h1>Você selcionou: Pizza de Calabreza</h1>
+      <form method="get">
+        <h2>Quai opcionais você deseja?</h2>
+        <input type="checkbox" name="opcional[]" value="queijo" id="" />+
+        queijo<br />
+        <input
+          type="checkbox"
+          name="opcional[]"
+          value="calabreza"
+          id=""
+          disabled
+        />+ calabreza<br />
+        <input type="checkbox" name="opcional[]" value="cebola" id="" />+
+        cebola<br />
+        <input type="checkbox" name="opcional[]" value="azeitona" id="" />+
+        azeitona<br />
+
+        <h2>Bordar recheada?</h2>
+        <input type="radio" name="borda" value="sim" id="" /> Sim <br />
+        <input type="radio" name="borda" value="nao" id="" /> Não <br />
+
+        <h2>Bebida</h2>
+        <input type="radio" name="bebida" value="suco" /> Suco <br />
+        <input type="radio" name="bebida" value="refrigerante" />
+        Refrigerante <br />
+        <input type="radio" name="bebida" value="agua" /> Água <br />
+        <input type="radio" name="bebida" value="nenhuma" /> Nenhuma
+        <br />
+        <br />
+        <button type="submit">Enviar Pedido</button>
+      </form>
+    </div>
+    <hr />
+    <hr />
+    <div class="button">
+      <button type="button" onclick="alert('Cliquei no botão')" ;>
+        Clicavel
+      </button>
+    </div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
