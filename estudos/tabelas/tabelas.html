@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de Tabelas</title>
+    <style>
+      table {
+        -webkit-box-shadow: 6px 11px 17px 1px rgba(198, 157, 157, 0.5);
+        box-shadow: 6px 11px 17px 1px rgba(198, 157, 157, 0.5);
+        border: solid 1px gray;
+      }
+
+      table thead th {
+        background-color: black;
+        color: azure;
+      }
+
+      table tfoot td {
+        background-color: rgb(160, 111, 51);
+      }
+
+      table tbody tr:nth-child(even) td {
+        background-color: bisque;
+      }
+
+      table tbody tr:hover td {
+        background-color: rgb(247, 218, 182);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="250px" align="center" cellspacing="0" cellpadding="5">
+      <!-- <caption>
+        Tabela de Idades dos Alunos
+      </caption> -->
+      <thead>
+        <tr>
+          <tr>
+            <th colspan="2">Minha Tabela</th>
+          </tr>
+          <th title="Nome completo">Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="1">
+          <td>Willian</td>
+          <td>43</td>
+        </tr>
+        <tr id="2">
+          <td>Willian</td>
+          <td>43</td>
+        </tr>
+        <tr id="3">
+          <td>Willian</td>
+          <td>43</td>
+        </tr>
+        <tr id="4">
+          <td>Willian</td>
+          <td>43</td>
+        </tr>
+        <tr id="5">
+          <td>Willian</td>
+          <td>43</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total</td>
+        <td>5</td>
+      </tfoot>
+    </table>
+  </body>
+</html>

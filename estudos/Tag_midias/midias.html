@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Usando TAG de Midias</title>
   </head>
+  <div></div>
   <body style="background-color: rgb(6, 1, 19)">
     <img
       src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzNyM3ppMDEzejh0MWl2aWpjcmMxaDlvMDkyajhrNjk5dW9ybzJrayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uBuzWfwVcadRC/giphy.gif"
@@ -14,15 +15,45 @@
       srcset=""
     />
     <br />
+    </div>
+    <div>
     <audio controls>
       <source src="audio/u2.mp3" />
       Não tem suporte para audio
     </audio>
-
-    <video controls>
-      <source src="video/grinch.mp4" />
-      <track src="video/legenda.vtt" kind="captions" srclang="en" />
-      Seu navegador não suporta video
+  </div>
+  <div>
+    <video controls width="200px">
+      <source src="video/grinch.mp4"  />
+      <track
+        src="video/legenda.vtt"
+        kind="captions"
+        srclang="en"
+        label="Descrição em Português"
+      />
+      /> Seu navegador não suporta video
     </video>
+    </div>
+    <div>
+<iframe 
+  width="500" 
+  height="500" 
+  src="https://www.youtube.com/embed/6d5hvC3YGCg?si=vxbu4Gl4YHl4q3lA"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+<br>
+<iframe 
+  width="500" height="500"   
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3957497313!2d-46.92496804531136!3d-23.681434556620616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1766156632947!5m2!1spt-BR!2sbr" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>    
+</div>
   </body>
 </html>

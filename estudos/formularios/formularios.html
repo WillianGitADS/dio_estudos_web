@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="tag-form">
-      <h1>Tag form</h1>
+      <h1>Apresentado as Tag form</h1>
       <form
         name="signup"
         target="_self"
@@ -25,6 +25,7 @@
     <hr />
     <hr />
     <div class="tag-inputs">
+      <h1>Exemplo de aplicaçao das TAGs</h1>
       <label>Text:</label><input type="text" /> <br />
       <label>Number:</label><input type="number" min="o" /> <br />
       <label>Button:</label><input type="button" value="Enviar" />
@@ -56,9 +57,10 @@
     <hr />
     <hr />
     <div class="checkbox_radio">
-      <h1>Você selcionou: Pizza de Calabreza</h1>
+      <h1>Uso de Radio e checkbox</h1>
+      <h1>Você selecionou: Pizza de Calabreza</h1>
       <form method="get">
-        <h2>Quai opcionais você deseja?</h2>
+        <h2>Quais opcionais você deseja?</h2>
         <input type="checkbox" name="opcional[]" value="queijo" id="" />+
         queijo<br />
         <input
@@ -91,11 +93,56 @@
     <hr />
     <hr />
     <div class="button">
-      <button type="button" onclick="alert('Cliquei no botão')" ;>
-        Clicavel
-      </button>
+      <h1>Uso dos Button</h1>
+      <form method="post">
+        Nome: <input type="text" name="name" /><br />
+        Idade: <input type="number" name="age" /><br />
+        Senha: <input type="password" name="password" /><br />
+        <button type="button" onclick="alert('Cliquei no botão')" ;>
+          Clicavel
+        </button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+      </form>
     </div>
-    <div></div>
-    <div></div>
+    <hr />
+    <hr />
+    <div class="select">
+      <h1>Uso do Select</h1>
+      <form method="post">
+        <label>Nome:</label> <input type="text" name="name" /><br />
+        <label>Cargo:</label>
+        <select name="role">
+          <option value="">Selecione o cargo</option>
+          <option value="administrativo">administrativo</option>
+          <option value="gerente">Gerente</option>
+          <option value="diretor">Diretor</option>
+          <option value="presidente">Presidente</option>
+        </select>
+        <br />
+        <label>Assunto:</label><input type="text" name="subject" /><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <hr />
+    <hr />
+    <div class="textarea">
+      <form method="post">
+        <label>Nome:</label> <input type="text" name="name" /><br />
+        <label>Cargo:</label>
+        <select name="role">
+          <option value="">Selecione o cargo</option>
+          <option value="administrativo">administrativo</option>
+          <option value="gerente">Gerente</option>
+          <option value="diretor">Diretor</option>
+          <option value="presidente">Presidente</option>
+        </select>
+        <br />
+        <label>Assunto:</label><textarea rows="10" cols="50"></textarea><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <hr />
+    <hr />
   </body>
 </html>
