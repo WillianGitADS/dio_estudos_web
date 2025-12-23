@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recursos Especiais - Details e Sumario</title>
+    <style>
+      code {
+        background-color: #f1f1f1;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <details>
+      <summary>Como troco a cor de fundo de um elemento no HTML?</summary>
+      <p>
+        Para executar esta ação, utilize comando
+        <code>background-color </code>no CSS
+      </p>
+    </details>
+    <hr />
+    <h1>Meter e progress</h1>
+    <p>
+      Usado para apresentar um valor, como exemplo a ocupação de um HD, podendo
+      almentar ou diminuir
+    </p>
+    <meter value="350" max="1000" min="0gb"></meter><br />
+    <p>
+      Usado para apresentar progresso, como exemplo downloads, uploads e
+      instalações
+    </p>
+    <progress id="progress" max="100" min="0">Progress</progress>
+    <script>
+      var progress = document.getElementById("progress");
+      const interval = setInterval(() => {
+        progress.value += 10;
+        if (progress.value >= 100) {
+          alert("Carregamento realizado com sucesso");
+          clearInterval(interval);
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

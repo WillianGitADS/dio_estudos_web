@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantico</title>
+    <style>
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+      }
+      nav ul li a {
+        padding: 10px 15px;
+        color: blue;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        color: white;
+        background-color: blue;
+        border-radius: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Aqui meu Header</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="tel: +5515999988777">Telefone</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>informações de seções</section>
+      <section>informações de seções</section>
+      <section>informações de seções</section>
+
+      <aside>
+        Assuntos paralelos (não tão importante), relativos ao assunto principal,
+        como links
+      </aside>
+    </main>
+    <footer>
+      <address>R: Das flores , numero 300</address>
+    </footer>
+  </body>
+</html>

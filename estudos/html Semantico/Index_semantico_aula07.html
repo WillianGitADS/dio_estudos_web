@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantico</title>
+    <style>
+      blockquote {
+        background-color: rgb(216, 213, 213);
+        padding: 10px;
+        margin-left: 2px;
+        border-left: solid rgb(0, 8, 255) 5px;
+      }
+      time {
+        font-style: italic;
+      }
+      article q {
+        font-style: italic;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <article>
+        <h1>Descoberta de vida em outro planeta</h1>
+        <p>Artigo publicado em <time pubdate>21/01/2022 19:00</time></p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          eum dolor. Deserunt suscipit amet provident tempore sapiente dolores
+          consequatur commodi numquam. Hic eum libero est deleniti atque eaque
+          dolore ipsum?
+        </p>
+        <figure>
+          <img src="img/filipensess_4_13.webp" alt="" srcset="" />
+          <figcaption>Descrição da Imagem</figcaption>
+        </figure>
+
+        <picture>
+          <source srcset="img/Stitch2.PNG" media="(min-width: 600px)" />
+          <img src="img/Stitch.PNG" />
+        </picture>
+
+        <blockquote cite="https://en.wikipedia.org/wiki/Template:Blockquote">
+          Quam facere voluptates mollitia, aliquam corrupti quasi deserunt
+          voluptas nam consequuntur inventore rem iste assumenda repellat illo
+          Quam facere voluptates mollitia, aliquam corrupti quasi deserunt
+          voluptas nam consequuntur inventore rem iste assumenda repellat illo
+          Quam facere voluptates mollitia, aliquam corrupti quasi deserunt
+          voluptas nam consequuntur inventore rem iste assumenda repellat illo
+          Quam facere voluptates mollitia, aliquam corrupti quasi deserunt
+          voluptas nam consequuntur inventore rem iste assumenda repellat illo
+          Quam facere voluptates mollitia, aliquam corrupti quasi deserunt
+          voluptas nam consequuntur inventore rem iste assumenda repellat illo
+        </blockquote>
+        <p>
+          Cum aspernatur blanditiis odio eum modi magni maiores reprehenderit
+          corporis voluptatibus amet. Unde nulla mollitia eveniet asperiores
+          nemo. At exercitationem culpa aliquid earum officia eaque odio
+          asperiores sit maxime! Soluta?
+        </p>
+        <p>
+          Segunda o alunos este e o melhor cursos de
+          <q cite="http://dio.me"
+            >este e o melhor curso de html que ja realizaram</q
+          >
+        </p>
+        <p>
+          Cum aspernatur blanditiis odio eum modi magni maiores reprehenderit
+          corporis voluptatibus amet. Unde nulla mollitia eveniet asperiores
+          nemo. At exercitationem culpa aliquid earum officia eaque odio
+          asperiores sit maxime! Soluta?
+        </p>
+      </article>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
