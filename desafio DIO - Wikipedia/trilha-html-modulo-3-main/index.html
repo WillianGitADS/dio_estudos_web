@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/html.png" width="50" />
+      </div>
+      <h1>HTML - wikipedia</h1>
+
+      <input type="search" name="" id="" placeholder="Pesquisar na Wikipédia" />
+      <button type="submit">Procurar</button>
+    </header>
+
+    <nav class="menu_header">
+      <nav class="sup_esquerda">
+        <ul class="menu_sup_esquerda">
+          <li><a href="index.html">Artigo</a></li>
+          <li><a href="#">Discussão</a></li>
+        </ul>
+      </nav>
+      <nav class="sup_direita">
+        <ul class="menu_sup_direita">
+          <li><a href="#">Ler</a></li>
+          <li><a href="#">Editar</a></li>
+          <li><a href="#">Ver histórico</a></li>
+          <li><a href="#">Ferramentas</a></li>
+        </ul>
+      </nav>
+    </nav>
+
+    <main>
+      <nav class="navegacao">
+        <h2>Conteúdos:</h2>
+        <ul>
+          <li><a href="#html">Início</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#versoes">Versões</a></li>
+          <li><a href="#edicao">Edição de documentos HTML</a></li>
+          <li>
+            <a href="#estrutura_basica">Estrutura básica de um documento</a>
+          </li>
+          <li><a href="#cores">Cores</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h1 id="html">HTML</h1>
+        <hr />
+        <p>
+          <a>HTML</a> (abreviação para a expressão inglesa
+          <strong><i>HyperText Markup Language</i></strong
+          >, que significa: <a>Linguagem de Marcação de Hipertexto")</a> é uma
+          linguagem de marcação utilizada na construção de
+          <a>páginas na Web.</a>
+          Documentos HTML podem ser interpretados por navegadores. A tecnologia
+          é fruto da junção entre os padrões HyTime e SGML.
+        </p>
+        <p>
+          <a>HyTime</a> é um padrão para a representação estruturada de
+          <a>hipermídia</a> e conteúdo baseado em tempo. Um documento é visto
+          como um conjunto de eventos concorrentes dependentes de tempo (como
+          áudio, vídeo, etc.), conectados por <a>hiperligações</a> (em inglês:
+          hyperlink e link). O padrão é independente de outros padrões de
+          processamento de texto em geral
+        </p>
+        <p>
+          SGML é um padrão de formatação de textos. Não foi desenvolvido para
+          hipertexto, mas tornou-se conveniente para transformar documentos em
+          hiper-objetos e para descrever as ligações.
+        </p>
+        <h2 id="historia">História</h2>
+        <hr />
+        <p>
+          <a>Tim Berners-Lee</a> (físico britânico) criou o HTML original (e
+          outros protocolos associados como o HTTP), numa estação NeXTcube,
+          usando o ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem
+          não era uma especificação, mas uma coleção de ferramentas para
+          resolver um problema de Tim: a comunicação e disseminação das
+          pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada
+          com a então emergente internet pública (que tornar-se-ia a Internet),
+          ganhou atenção mundial.
+        </p>
+        <p>
+          As primeiras versões do HTML foram definidas com regras sintáticas
+          flexíveis, o que ajudou aqueles sem familiaridade com a publicação na
+          Web. Através do tempo, a utilização de ferramentas para autoria de
+          HTML aumentou, assim como a tendência em tornar a sintaxe cada vez
+          mais rígida. Apesar disso, por questões históricas
+          (retrocompatibilidade), os navegadores ainda hoje conseguem
+          interpretar páginas web que estão longe de ser um código HTML válido.
+        </p>
+
+        <p>
+          A linguagem foi definida em especificações formais na década de 1990,
+          inspiradas nas propostas originais de Tim Berners-Lee em criar uma
+          linguagem baseada em SGML para a Internet. A primeira publicação foi
+          esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF,
+          como uma aplicação formal para o SGML (com uma DTD em SGML definindo a
+          gramática). A IETF criou um grupo de trabalho para o HTML no ano
+          seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações
+          HTML vêm sendo mantidas, com o auxílio de fabricantes de software,
+          pelo World Wide Web Consortium (W3C).[1] Apesar disso, em 2000 a
+          linguagem tornou-se também uma norma internacional (ISO/IEC
+          15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999
+          pelo W3C. Uma errata ainda foi lançada em 2001.
+        </p>
+        <table id="versoes">
+          <thead>
+            <p>Várias versões HTML foram publicadas:</p>
+            <tr>
+              <th>Versão</th>
+              <th>Ano</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>1991</td>
+            </tr>
+            <tr>
+              <td>HTML 2.0</td>
+              <td>1995</td>
+            </tr>
+            <tr>
+              <td>HTML 3.2</td>
+              <td>1997</td>
+            </tr>
+            <tr>
+              <td>HTML 4.01</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <td>XHTML</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>HTML5</td>
+              <td>2014</td>
+            </tr>
+            <tr>
+              <td>HTML 5.1</td>
+              <td>2016 E 2017 (2ºed)</td>
+            </tr>
+            <tr>
+              <td>HTML 5.2</td>
+              <td>2017</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="edicao">Edição de documentos HTML</h2>
+        <hr />
+        <p>
+          Os documentos em HTML são arquivos de texto simples que podem ser
+          criados e editados em qualquer editor de textos comum, como o Bloco de
+          Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a
+          produção de documentos, no mercado existem editores HTML específicos,
+          com recursos sofisticados, que facilitam a realização de tarefas
+          repetitivas, inserção de objetos, elaboração de tabelas e outros
+          recursos (Ver lista abaixo). Basicamente dividem-se em dois tipos:
+        </p>
+        <ul>
+          <li>
+            Editores de texto fonte: inserem automaticamente os marcadores,
+            orientando a inserção de atributos e marcações
+          </li>
+          <li>
+            Editores WYSIWYG: oferecem ambiente de edição com um "esboço"
+            resultado final das marcações
+          </li>
+        </ul>
+        <h2 id="estrutura_basica">Estrutura Básica HTML</h2>
+        <hr />
+        <p>
+          A estrutura básica de um documento HTML (Hyper Text Markup Language -
+          Linguagem de Marcação de Hypertexto), apresenta as seguintes
+          marcações:
+        </p>
+        <pre>
+          <code>
+<span>&lt;!DOCTYPE html&gt;</span>
+<span>&lt;</span><span>html</span> <span>lang</span><span>=</span><span>"pt-BR"</span><span>&gt;</span>
+  <span>&lt;</span><span>head</span><span>&gt;</span>
+    <span>&lt;</span><span>meta</span> <span>charset</span><span>=</span><span>"UTF-8"</span><span>&gt;</span>
+    <span>&lt;</span><span>meta</span> <span>name</span><span>=</span><span>"viewport"</span> <span>content</span><span>=</span><span>"width=device-width, initial-scale=1"</span><span>&gt;</span>
+    <span>&lt;</span><span>title</span><span>&gt;</span>Título do Documento<span>&lt;/</span><span>title</span><span>&gt;</span>
+  <span>&lt;/</span><span>head</span><span>&gt;</span>
+  <span>&lt;</span><span>body</span><span>&gt;</span>
+    <span>&lt;!-- Aqui fica a página que será visível para todos, onde pode-se inserir</span>
+<span>        textos, imagens, links para outras páginas, etc, geralmente usa-se: --&gt;</span>
+
+    <span>&lt;</span><span>div</span><span>&gt;</span>Tag para criar um bloco, mais utilizado com CSS<span>&lt;/</span><span>div</span><span>&gt;</span>
+
+    <span>&lt;</span><span>span</span><span>&gt;</span>Tag para modificação de uma parte do texto da página<span>&lt;/</span><span>span</span><span>&gt;</span>
+
+    <span>&lt;</span><span>img</span> <span>src</span><span>=</span><span>"imagem.jpg"</span><span>&gt;</span>
+
+    <span>&lt;</span><span>a</span> <span>href</span><span>=</span><span>"https://www.wikipedia.org"</span><span>&gt;</span>Wikipédia, a enciclopédia livre<span>&lt;/</span><span>a</span><span>&gt;</span>
+  <span>&lt;/</span><span>body</span><span>&gt;</span>
+<span>&lt;/</span><span>html</span><span>&gt;</span>
+</code>
+        </pre>
+      </section>
+      <aside>
+        <h2>Neste Artigo</h2>
+        <ul>
+          <li><a href="#">Âncoras</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <section class="endereco">
+        <h3>Endereço:</h3>
+        <ul>
+          <li><a src:"https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Politica de privacidade</a></li>
+          <li><a src:"https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Sobre_a_Wikip%C3%A9dia">Sobre a Wikipédia</a></li>
+          <li><a src:"https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Limita%C3%A7%C3%A3o_de_responsabilidade_geral">Avisos Gerais</a></li>
+          <li><a src:"https://foundation.wikimedia.org/wiki/Policy:Universal_Code_of_Conduct">Código de Conduta</a></li>
+          <li><a src:"https://developer.wikimedia.org/">Programadores</a></li>
+          <li><a src:"https://stats.wikimedia.org/#/pt.wikipedia.org">Estatísticas</a></li>
+          <li><a src:"https://foundation.wikimedia.org/wiki/Policy:Cookie_statement">Declaração sobre cookies</a></li>
+          <li><a src:"https://pt.wikipedia.org/wiki/HTML">Versão móvel</a></li>
+        </ul>
+      </section>
+      <section class="informacoes">
+        <h3>Este texto é disponibilizado nos termos da licença:</h3>
+        <ul>
+          <li>
+            <a
+              rel="nofollow"
+              href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+            >
+              Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) da
+              Creative Commons</a
+            >; pode estar sujeito a condições adicionais.
+          </li>
+          <li>
+            Para mais detalhes, consulte as
+            <a
+              href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use"
+              >condições de utilização</a
+            >
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

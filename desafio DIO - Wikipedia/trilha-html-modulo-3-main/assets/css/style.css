@@ -1,0 +1,193 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+a {
+  color: rgba(19, 19, 226, 0.768);
+  text-decoration: none;
+}
+
+header {
+  background-color: aliceblue;
+  display: flex;
+  font-size: 24px;
+  width: 100%;
+  align-self: center;
+}
+
+header .logo,
+h1 {
+  align-self: center;
+  margin: 10px;
+}
+
+header input,
+button {
+  align-self: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+header button {
+  margin-left: 10px;
+  width: 80px;
+}
+
+.menu_header {
+  display: inline-flex;
+  width: 100%;
+  background-color: #c1c1e9;
+  padding: 15px 0px;
+  border-bottom: solid 3px #0737f8;
+}
+.menu_header .sup_direita {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_header .sup_esquerda {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu_header .sup_direita ul li,
+.menu_header .sup_esquerda ul li {
+  display: inline;
+  margin: 0px 5px;
+  padding: 8px;
+  background-color: rgb(168, 178, 183);
+  border: 2px solid rgb(150, 178, 183);
+  border-radius: 15px 0px 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu_header .sup_direita ul li:hover,
+.menu_header .sup_esquerda ul li:hover,
+.menu_header .sup_direita ul li a:hover,
+.menu_header .sup_esquerda ul li a:hover {
+  background-color: rgb(236, 118, 7);
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+}
+section h1 {
+  margin: 0px;
+}
+
+section p {
+  font-size: 20px;
+}
+
+table {
+  margin: 10px;
+  font-size: 20px;
+  border: brown 1px solid;
+  text-align: center;
+  width: 400px;
+  border-collapse: collapse;
+}
+
+thead th {
+  border: 1px solid brown;
+  background-color: rgb(245, 221, 189);
+}
+
+tbody td {
+  border: 1px solid brown;
+  background-color: rgb(199, 175, 144);
+}
+
+pre {
+  margin: 10px 20px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: rgb(255, 250, 229);
+  border: #c1c1e9 1px solid;
+}
+
+code {
+  color: #0737f8;
+  padding-left: 5px;
+}
+footer {
+  display: inline-flex;
+  width: 100%;
+  background-color: #c1c1e9;
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+}
+
+footer ul {
+  margin-left: 25px;
+  border-left: #ed1515 2px solid;
+}
+
+footer .endereco {
+  margin-left: 10px;
+  float: left;
+  text-align: left;
+  width: 45%;
+}
+
+footer .informacoes {
+  margin-left: 10px;
+  text-align: left;
+  float: right;
+  width: 45%;
+}
+
+aside {
+  background-color: brown;
+  border-left: solid 1px #04ef2b;
+  padding-left: 15px;
+}
+.navegacao {
+  /* margin-left: 10px; */
+  background-color: rgb(169, 181, 181);
+  border-right: solid 1px #ed1515;
+}
+
+.navegacao h2 {
+  display: inline-block;
+  margin: 5px;
+
+  text-align: left;
+  font-size: 26px;
+}
+
+.navegacao ul {
+  margin: 10px 20px;
+  font-size: 24px;
+}
+
+/* .navegacao ul li {
+} */
+
+.navegacao ul li a:hover {
+  color: #ed1515;
+  font-size: 27px;
+}
+
+figure {
+  text-align: center;
+}
