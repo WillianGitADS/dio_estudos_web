@@ -9,13 +9,21 @@
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="assets/images/html.png" width="50" />
-      </div>
+      <figure class="logo">
+        <img src="assets/images/html.png" width="50" alt="imagen do logo de HTML" />
+      </figure>
       <h1>HTML - wikipedia</h1>
+      <form role="search" class="logo">
+  <label for="pesquisa">Pesquisa
+  <input
+    type="search"
+    name="pesquisar"
+    id="pesquisa"
+    placeholder="Pesquisar na Wikipédia"
+  >
+  <button type="submit" name="procurar">Procurar</button>
+</form>
 
-      <input type="search" name="" id="" placeholder="Pesquisar na Wikipédia" />
-      <button type="submit">Procurar</button>
     </header>
 
     <nav class="menu_header">
@@ -112,8 +120,9 @@
           pelo W3C. Uma errata ainda foi lançada em 2001.
         </p>
         <table id="versoes">
+          <Caption><p>Várias versões HTML foram publicadas:</p></Caption>
           <thead>
-            <p>Várias versões HTML foram publicadas:</p>
+            
             <tr>
               <th>Versão</th>
               <th>Ano</th>
@@ -208,10 +217,51 @@
         </pre>
       </section>
       <aside>
-        <h2>Neste Artigo</h2>
-        <ul>
-          <li><a href="#">Âncoras</a></li>
-        </ul>
+        <h2>HTML</h2><br>
+        <h2>(HyperText Markup Language)</h2>
+        <hr>
+        <figure>
+          <img class="img_logo" src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/HTML5_logo.png " alt="simbolo do html">
+        </figure>
+        <table class="table_aside">
+          <tbody>
+          <tr>
+            <td>Extensão de arquivos</td>
+            <td class="tab_extensao"><p>.html</p> <br>
+              <p>.htm</p></td>
+          </tr>
+          <tr>
+            <td>Tipo de mídia da Internet</td>
+            <td>text/html</td>
+          </tr>
+          <tr>
+            <td>Type code</td>
+            <td>TEXT</td>
+          </tr>
+          <tr>
+            <td>Desenvolvido por</td>
+            <td>W3C & WHATING</td>
+          </tr>
+          <tr>
+            <td>Tipo de formato</td>
+            <td>Linguagem de marcação</td>
+          </tr>
+          <tr>
+            <td>Padrão</td>
+            <td><p><span>ISO/IEC 15445 </span><a rel="nofollow" href="">W3C HTML lastest recommendation</a>
+              <img src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/link_externo.PNG" width="12px"  alt="link externo"></span></p>
+              <p><a href="#">HTML Living Satandard </a><img src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/link_externo.PNG" width="12px"  alt="link externo"></p>
+              <P><a href="#">W3C HTML 5.1 </a><img src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/link_externo.PNG" width="12px" alt="link externo"></P>
+          </td>
+            </tr>
+          <tr>
+            <td>Website</td>
+            <td><p><p><a href="#">www.w3.org/html</a><img src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/link_externo.PNG" width="12px"  alt="link externo"></p>
+            <p><a href="#">whatwg.org </a><img src="/desafio DIO - Wikipedia/trilha-html-modulo-3-main/assets/images/link_externo.PNG" width="12px"  alt="link externo"></p></td>
+              </td>
+          </tr>
+          </tbody>
+        </table>
       </aside>
     </main>
 
@@ -239,7 +289,8 @@
             >
               Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) da
               Creative Commons</a
-            >; pode estar sujeito a condições adicionais.
+            >;</li>
+            <li>pode estar sujeito a condições adicionais.
           </li>
           <li>
             Para mais detalhes, consulte as
