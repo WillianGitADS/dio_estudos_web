@@ -63,8 +63,8 @@ header button {
 .menu_header .sup_direita ul li,
 .menu_header .sup_esquerda ul li {
   display: inline;
-  margin: 0px 5px;
-  padding: 8px;
+  margin: 3px 5px;
+  padding: 2px;
   background-color: rgb(168, 178, 183);
   border: 2px solid rgb(150, 178, 183);
   border-radius: 15px 0px 0px;
@@ -99,7 +99,7 @@ section p {
 }
 
 table {
-  margin: 10px;
+  margin: 2px;
   font-size: 20px;
   border: brown 1px solid;
   text-align: center;
@@ -193,12 +193,12 @@ aside h2 {
 }
 
 .table_aside td {
-  padding: 1px 5px;
+  padding: 2px 5px;
   background-color: whitesmoke;
 }
-.tab_extensao P {
-  margin: 0;
-  padding: 2px;
+.tab_extensao p {
+  margin: 3px 40px;
+  padding: 0px 1px;
   border: rgb(229, 9, 9) 1px solid;
 }
 .img_logo {
